@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context allowLinking="true" path="" useHttpOnly="true">
+<Resource auth="Container" factory="org.apache.webbeans.container.ManagerObjectFactory" name="BeanManager" type="jakarta.enterprise.inject.spi.BeanManager"/>
+</Context>

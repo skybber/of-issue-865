@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="jakarta.faces.html"
+      xmlns:p="http://primefaces.org/ui"
+      >
+<h:body>
+
+		<h:panelGrid columns="2">
+			<h:form>
+				<p:commandButton value="Throw exception" action="#{userController.throwException()}" ajax="false"/>
+			</h:form>
+		</h:panelGrid>
+</h:body>
+</html>

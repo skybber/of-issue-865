@@ -11,8 +11,8 @@ public class UserController implements Serializable {
 
     private static final long serialVersionUID = -4538115105092134763L;
 
-    public void throwException() throws Exception
+    public void throwException()
 		{
-        throw new Exception("Exception!");
+        throw new RuntimeException();
     }
 }
